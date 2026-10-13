@@ -1,6 +1,6 @@
 import { useId } from "react";
 
-/** The PlayHere mark: a location pin with a play button, for any sport played near you. */
+/** The PlayHere mark: a location pin with a play button, for any sport, wherever it is played. */
 export function LogoMark({ size = 36, title = "PlayHere" }: { size?: number; title?: string }) {
   const id = useId();
   return (

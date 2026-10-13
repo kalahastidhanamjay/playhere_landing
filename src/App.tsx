@@ -61,9 +61,9 @@ function Hero() {
       <div className="hero-pitch" aria-hidden />
       <div className="wrap hero-grid">
         <div>
-          <span className="eyebrow">Grassroots sport, scored live</span>
+          <span className="eyebrow">Every sport, scored live</span>
           <h1>
-            Every local game, every sport, <span className="serif">live.</span>
+            Every game, every sport, <span className="serif">live.</span>
           </h1>
           <p className="hero-lede">
             Cricket on Sunday, football on Wednesday, badminton after work. Score any match live, run leagues with automatic
@@ -196,7 +196,7 @@ function Pillars() {
         <div className="section-head">
           <span className="eyebrow">Features</span>
           <h2>
-            Everything a local game needs, <span className="serif">nothing it doesn't.</span>
+            Everything a game needs, <span className="serif">nothing it doesn't.</span>
           </h2>
           <p>PlayHere does three jobs well: scoring the match, running the competition, and remembering what you did.</p>
         </div>
@@ -364,7 +364,7 @@ function Audience() {
     ["Most of us", "Players", "One profile for every sport you play, with a record that grows every season. Get noticed for trials."],
     ["Brings the squad", "Captains", "One invite link for the whole team, and a quick match in any sport ready whenever you are."],
     ["Runs the show", "Organisers", "Registrations, fixtures and a live table without the spreadsheet."],
-    ["Never misses a moment", "Fans", "Follow a local match from anywhere. Live scores open without signing up."],
+    ["Never misses a moment", "Fans", "Follow any match from anywhere. Live scores open without signing up."],
   ];
   return (
     <section className="section dark">
@@ -455,7 +455,7 @@ function Footer() {
             <span style={{ display: "inline-flex", alignItems: "center", gap: 10, fontWeight: 800, fontSize: 19, color: "var(--ink)" }}>
               <LogoMark size={34} /> PlayHere
             </span>
-            <p style={{ maxWidth: "30ch" }}>Play. Connect. Compete. The home of grassroots sport.</p>
+            <p style={{ maxWidth: "30ch" }}>Play. Connect. Compete. Every sport, one home.</p>
           </div>
           <div>
             <h4>Product</h4>
@@ -487,7 +487,7 @@ function Footer() {
         </div>
         <div className="footer-base">
           <span>© {new Date().getFullYear()} PlayHere</span>
-          <span>Made for the people who keep local sport going.</span>
+          <span>Made for everyone who plays, runs and follows the game.</span>
         </div>
       </div>
     </footer>
